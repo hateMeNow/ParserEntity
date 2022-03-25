@@ -53,11 +53,12 @@ public class Parser {
 			
 			type = type + stringaOutputLambda + ";";
 			
+			listaStringhe.add(TemporalColumnNameParser.parserTemporalColumnName(stringCompose[1]));
+			
 			listaStringhe.add(ColumnNameParser.columnNameParser(stringCompose[0]));
 			
 			listaStringhe.add(type);
 			
-			listaStringhe.add("\n");
 		}
 		
 		
